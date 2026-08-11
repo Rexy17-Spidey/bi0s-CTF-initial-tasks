@@ -1,0 +1,4 @@
+Challenge: c0mb1n3d Steganography
+Files Analyzed: chall.png, incredible.png, pepe.png
+Methodology: XORed pepe.png and incredible.png, then XORed the result with chall.png to isolate the noise/flag layer. Extracted bit plane 0 of the difference.
+Flag Found: flag{h4ppy_h4ppy_h4ppy_:)}

@@ -1,0 +1,4 @@
+Challenge: c0rrupt3d PNG Forensics
+Vulnerability: Corrupted PNG header (null bytes) and corrupted IEND chunk (null bytes).
+Methodology: Restored standard PNG header (89 50 4E 47 0D 0A 1A 0A) and standard IEND chunk (00 00 00 00 49 45 4E 44 AE 42 60 82).
+Flag Found: vidyutctf{4r3_y4_w1nn1ng_s0n?}
